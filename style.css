@@ -118,21 +118,3 @@ button:hover {
   animation: float 3s ease-in-out infinite;
   filter: drop-shadow(0 4px 10px rgba(255, 255, 255, 0.2));
 }
-
-#welcome-screen {
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100vh;
-  background: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  z-index: 9999;
-}
-
-#welcome-screen h1 {
-  color: white;
-  font-size: 2em;
-  margin-bottom: 20px;
-}
